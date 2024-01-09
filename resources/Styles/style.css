@@ -1,0 +1,118 @@
+.Portrait-heading {
+    margin-top: 20px;
+}
+
+.Celebration {
+    display: block;
+}
+
+.Portrait-img {
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.Portrait-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    z-index: 1;
+    border-radius: 20px;
+    font-size: 90px;
+}
+
+.Portrait-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.Portrait-text {
+    position: absolute;
+    top: 20%;
+    left: -20%;
+    transform: translate(50%, 50%);
+    color: white;
+    z-index: 2;
+    text-align: center;
+    width: 70%;
+}
+
+.Portrait text h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 95px;
+    width: 632px;
+    height: 190px;
+}
+
+.Portrait text h1 {
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    padding: 20px;
+    width: 259px;
+    height: 40px;
+}
+
+.Index-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+    margin-top: 70px;
+}
+
+.Index-middle {
+    text-align: center;
+}
+
+.Index-middle h1 {
+    color: #F00;
+    font-size: 88px;
+    font-family: Inter;
+    text-align: center;
+    font-weight: 700;
+}
+
+.Index-middle p {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Index-middle h2 {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.Midnight-heading{
+    position: relative;
+    margin-top: 80px;
+}
+.Midnight-img{
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.Midnight-img img{
+    width: 100%
+}
