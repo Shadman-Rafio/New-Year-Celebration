@@ -41,9 +41,10 @@
     z-index: 2;
     text-align: center;
     width: 70%;
+    font-size: large;
 }
 
-.Portrait text h3 {
+.Portrait text h6 {
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
@@ -56,7 +57,7 @@
 }
 
 .Portrait text h1 {
-    font-size: 72px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 900;
     padding: 20px;
@@ -106,6 +107,7 @@
 .Midnight-heading{
     position: relative;
     margin-top: 80px;
+
 }
 .Midnight-img{
     position: relative;
@@ -114,9 +116,10 @@
 .Midnight-img img{
     width: 100%;
     height: auto;
-    display: block;
+    display: center;
+    margin: 0 auto;
 }
-.midnight-img::before{
+.Midnight-img::before{
     content:"";
     position: absolute;
     top: 0;
@@ -290,3 +293,290 @@
 .Right img {
     margin-top: 25px;
 }
+.Holiday-sale {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.Holiday-sale h3 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.Holiday-sale span {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.Holiday-sale .Sale-50 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    display: inline;
+    margin-left: 7px;
+}
+
+.Holiday-Desc {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    margin-top: 30px;
+}
+
+.Discount-container {
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.Box {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    width: 300px;
+    height: 300px;
+    transform: translateX(-50%, -50%);
+    z-index: 1;
+}
+
+.Border {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    display: block;
+    top: 0;
+    left: 0;
+    transform: translateY(-60%, -60%);
+    margin-top: 280px;
+}
+
+.Women {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.Dis-50 {
+    position: absolute;
+    left: 60%;
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, -50%);
+    margin-top: 150px;
+    padding: 40px;
+}
+.Portfolio {
+    margin-top: 600px;
+    
+}
+
+.Portfolio-content {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.Portfolio-img-container {
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+}
+
+.Portfolio-img-container img {
+    width: 355;
+    height: 355px;
+    transition: all ease 0.2s;
+    
+}
+
+.Portfolio-img-container img:hover {
+    transform: scale(0.9);
+}
+
+.Portfolio-content span {
+    color: #F00;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Portfolio-content h2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.Portfolio-content p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    
+}
+
+.Portfolio-img-top {
+
+}
+
+.Newsletter-container {
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-top: 60px;
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.Newsletter-container img {
+    width: 100px;
+    height: 100px;
+    margin-top: 60px;
+}
+
+.Newsletter-container h1 {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.Newsletter-container p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.Input-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.Input-container input {
+    padding: 0 10px;
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+
+.Input-container button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 6px 20px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: #F00;
+    color: #FFF;
+}
+.Footer {
+    background-color: #070211;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.Footer-container {
+    padding-top: 50px;
+}
+
+.Phone {
+    display: flex;
+    flex-direction: column;
+}
+
+.Phone .Phone-details,
+.Phone .Website {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.Phone .Phone-Details img,
+.Phone .Website img {
+    max-width: 100px; 
+}
+
+.Phone .Phone-Details span,
+.Phone .Website span {
+    margin-left: 8px;
+    color: #FFF;
+}
+
+
+.Footer-parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Footer-left h5 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Custom-line {
+    width: 75%;
+    height: 1px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.Social-icon {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Social-icon img {
+    margin-right: 10px;
+}
+
+.Footer-left-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Footer-bottom {
+    margin-top: 26px;
+}
+
+.Footer-left-bottom p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
